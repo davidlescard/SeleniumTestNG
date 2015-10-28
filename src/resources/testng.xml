@@ -1,0 +1,19 @@
+<suite name="Default suite" parallel="tests" verbose="10">
+
+  <parameter name="selenium.url" value="http://www.bestbuy.com" />
+  <parameter name="selenium.browser" value="firefox" />
+
+  <!--parameter name="selenium.host" value="localhost" />
+  <parameter name="selenium.port" value="3737" /-->
+
+  <test name="Default test" preserve-order="false">
+    <classes>
+      <class name="com.company.bestbuy.tests.acceptance.LoginTests">
+        <!-- methods>
+          <include name="loginPageLoads" />
+          <include name="logoutReturnsToLogin" />
+        </methods -->
+      </class>
+    </classes>
+  </test>
+</suite>

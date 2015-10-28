@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.moasis.bestbuy.tests.acceptance.LoginTests">
+        <methods>
+          <include name="app_afterClass"/>
+          <include name="app_beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="app_afterMethod"/>
+          <include name="noPasswordEnteredSaysRequired"/>
+          <include name="app_beforeClass"/>
+          <include name="app_afterSuite"/>
+          <include name="app_beforeSuite"/>
+        </methods>
+      </class> <!-- com.moasis.bestbuy.tests.acceptance.LoginTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

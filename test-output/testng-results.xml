@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11994" started-at="2015-10-22T14:36:03Z" finished-at="2015-10-22T14:36:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11994" started-at="2015-10-22T14:36:03Z" finished-at="2015-10-22T14:36:15Z">
+      <class name="com.moasis.bestbuy.tests.acceptance.LoginTests">
+        <test-method status="PASS" signature="app_beforeSuite(org.testng.ITestContext)[pri:0, instance:com.moasis.bestbuy.tests.acceptance.LoginTests@19bb089b]" name="app_beforeSuite" is-config="true" duration-ms="16" started-at="2015-10-22T10:36:03Z" finished-at="2015-10-22T10:36:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69e1dd28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- app_beforeSuite -->
+        <test-method status="PASS" signature="app_beforeClass(org.testng.ITestContext)[pri:0, instance:com.moasis.bestbuy.tests.acceptance.LoginTests@19bb089b]" name="app_beforeClass" is-config="true" duration-ms="0" started-at="2015-10-22T10:36:03Z" finished-at="2015-10-22T10:36:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69e1dd28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- app_beforeClass -->
+        <test-method status="PASS" signature="app_beforeMethod(java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.moasis.bestbuy.tests.acceptance.LoginTests@19bb089b]" name="app_beforeMethod" is-config="true" duration-ms="5008" started-at="2015-10-22T10:36:03Z" finished-at="2015-10-22T10:36:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.moasis.bestbuy.tests.acceptance.LoginTests.loginPageLoads()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[perAppConfig]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[perAppConfig]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- app_beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.moasis.bestbuy.tests.acceptance.LoginTests@19bb089b]" name="beforeMethod" is-config="true" duration-ms="4352" started-at="2015-10-22T10:36:08Z" finished-at="2015-10-22T10:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginPageLoads()[pri:0, instance:com.moasis.bestbuy.tests.acceptance.LoginTests@19bb089b]" name="loginPageLoads" duration-ms="1390" started-at="2015-10-22T10:36:12Z" finished-at="2015-10-22T10:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageLoads -->
+        <test-method status="PASS" signature="app_afterMethod()[pri:0, instance:com.moasis.bestbuy.tests.acceptance.LoginTests@19bb089b]" name="app_afterMethod" is-config="true" duration-ms="1241" started-at="2015-10-22T10:36:14Z" finished-at="2015-10-22T10:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- app_afterMethod -->
+        <test-method status="PASS" signature="app_afterClass()[pri:0, instance:com.moasis.bestbuy.tests.acceptance.LoginTests@19bb089b]" name="app_afterClass" is-config="true" duration-ms="1" started-at="2015-10-22T10:36:15Z" finished-at="2015-10-22T10:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- app_afterClass -->
+        <test-method status="PASS" signature="app_afterSuite()[pri:0, instance:com.moasis.bestbuy.tests.acceptance.LoginTests@19bb089b]" name="app_afterSuite" is-config="true" duration-ms="0" started-at="2015-10-22T10:36:15Z" finished-at="2015-10-22T10:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- app_afterSuite -->
+      </class> <!-- com.moasis.bestbuy.tests.acceptance.LoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
